@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container Styling */
+.pricing-container {
+    text-align: center;
+    padding: 40px;
+    background: #F9F9F9;
+}
+
+/* Toggle Button */
+.toggle-switch {
+    display: flex;
+    justify-content: center;
+    background: #E5E7EB;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.toggle-btn.active {
+    background: white;
+    font-weight: bold;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* Pricing Card */
+.pricing-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.icon {
+    font-size: 24px;
+    background: #E5E7EB;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #19525A;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Feature List */
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 14px;
+    color: #555;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+/* CTA Button */
+.cta-button {
+    background: #19525A;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #0E3A40;
+}
+
+/* Select Dropdown */
+select {
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
